@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+        <title>Proactive Message Sample</title>
+
+        <link rel="stylesheet" type="text/css" href="proactive/proactive.css">
+    </head>
+    <body>
+        <h1>Proactive messaging sample</h1>
+        <a href="/custom.html">View Custom Message</a>
+        <!-- this is the div into which the websdk is loaded -->
+        <div id="chat-container"></div>
+        <!-- This is the proactive message -->
+        <div class='proactive' id='proactive'>
+            <div class='proactive-close-button' id='proactive-close-button'></div>
+            <div class="proactive-content">
+                <img class='proactive-avatar' src='assets/agent_avatar.png' alt='Agent Avatar' />
+                <div class='proactive-main'>
+                    <p class='proactive-main-name'>Joey from Smooch</p>
+                    <div class='proactive-main-message' id='proactive-main-message'></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="proactive/proactive_messages.js"></script>
+    <script src="proactive/scripts.js"></script>
+    <script src="websdk.js"></script>
+</html>
