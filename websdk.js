@@ -1,7 +1,7 @@
 // Make sure that the proactive.js file is loaded first.
 
 // your appId
-const appId = '5cfaadd937749e0010a8a71c';
+const appId = '';
 
 // this is script that imports/loads the web sdk into the browser
 !function(e,n,t,r){
