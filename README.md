@@ -1,6 +1,6 @@
 # Proactive messages using Smooch
 
-An oft-requested feature that we are working on, but is not yet integrated into the Smooch app is the ability to display proactive messages. 
+An oft-requested feature that we are working on, but is not yet integrated into Sunshine Conversations, is the ability to display proactive messages. 
 
 If you would like to implement this today, we have created a workaround using the current web SDK and a tiny server (for echoing proactive messages back into the conversation).
 
