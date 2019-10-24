@@ -1,4 +1,4 @@
-# Proactive messages using Smooch
+# Proactive messages using Sunshine Conversations
 
 An oft-requested feature that we are working on, but is not yet integrated into Sunshine Conversations, is the ability to display proactive messages. 
 
@@ -12,10 +12,10 @@ Experiment and have fun with it, and please let us know if you have issues or co
 
 1. Run `npm install` from the root project folder to setup all required dependencies.
 2. Duplicate the **.env_example** file and remove **_example** from the filename. (This file contains sensitive information and should never be committed to a git repository.) 
-3. Access your [Smooch dashboard](https://app.smooch.io/) and retrieve the following values.
-    - Smooch App Id
-    - Smooch App Key
-    - Smooch App Secret
+3. Access your [Sunshine Conversations dashboard](https://app.smooch.io/) and retrieve the following values.
+    - Sunshine Conversations App Id
+    - Sunshine Conversations App Key
+    - Sunshine Conversations App Secret
 4. Run this sample locally using `npm run dev`. This will start up the server.
 
 The sample widget is located at **http://localhost:8000**
